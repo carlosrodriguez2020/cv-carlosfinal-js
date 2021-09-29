@@ -32,3 +32,11 @@ main{
 #fab{
     color: white !important;
 }
+
+.moreSize{
+    font-size: large !important;
+}
+
+moreSize1{
+    font-size: medium !important;
+}
