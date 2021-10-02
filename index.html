@@ -45,40 +45,44 @@
   </header>
 
   <div class="container-fluid p-0">
-    
+
     <main class="text-center fondo">
-      <img src="./img/carlosSonriente.jpg" alt="imagen de ususario" style="width: 200px" py-3 id="carlosSonriente"/>
+      <img src="./img/carlosSonriente.jpg" alt="imagen de ususario" style="width: 200px" py-3 id="carlosSonriente" />
       <h3>Carlos M. Rodriguez</h3>
-      <a href="https://www.linkedin.com/in/carlosm-rodriguez/" target="_blank"><i class="fab fa-linkedin fa-2x" id="fab"
-         ></i></a>
+      <a href="https://www.linkedin.com/in/carlosm-rodriguez/" target="_blank"><i class="fab fa-linkedin fa-2x"
+          id="fab"></i></a>
     </main>
     <h5 class="text-center my-3 text-light bg-dark w-100%" id="Datos personales">Datos personales</h5>
     <section class="container">
-      <div class="row my-2">
+      <div class="row my-2 ">
         <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <span class="font-weight-bold moreSize">Edad: </span>30 años
+          <ul class="list-group list-group-flush d-flex align-self-center">
+            <li class="list-group-item ">
+              <span class="font-weight-bold ">Edad: </span>31 años
             </li>
             <li class="list-group-item">
-              <span class="font-weight-bold moreSize">Email: </span>carlosmvrodriguez9@gmail.com
+              <span class="font-weight-bold ">Email: </span>carlosmvrodriguez9@gmail.com
             </li>
             <li class="list-group-item">
-              <span class="font-weight-bold moreSize">Cel: </span>+5493813154508
+              <span class="font-weight-bold ">Cel: </span>+5493813154508
             </li>
             <li class="list-group-item">
-              <span class="font-weight-bold moreSize">Dirección: </span>Gral. Paz 3390
+              <span class="font-weight-bold ">Nacionalidad: </span>Argentina
             </li>
-            
+            <li class="list-group-item">
+              <span class="font-weight-bold ">Provincia: </span>Tucumán
+            </li>
           </ul>
         </div>
         <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div class="card-body text-justify">
-            <h5 class="card-title" id="Enviar Email">Opinión Personal </h5>
+            <h5 class="card-title" id="Enviar Email">Opinión personal </h5>
 
             <p class="card-text">
-              Hola bienvenid@s, mi nombre es Carlos Rodríguez. Estudie programación en Rolling-Code y finalice en el año 2020, me encuentro en constante preparación y aprendizaje de nuevas tecnologías de manera autodidacta. 
-En estos últimos años también me dedique además a profundizarme en el área de Testing mediante cursos y practicas supervisadas por Testers experimentados trabajando en este sector.
+              Hola bienvenid@s, mi nombre es Carlos Rodríguez. Estudie programación en Rolling-Code y finalice en el año
+              2020, me encuentro en constante preparación y aprendizaje de nuevas tecnologías de manera autodidacta.
+              En estos últimos años también me dedique además a profundizarme en el área de Testing mediante cursos y
+              practicas supervisadas por Testers experimentados trabajando en este sector.
             </p class="text-center">
             <!-- //aqui empieza la ventana modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Enviar
@@ -95,7 +99,7 @@ En estos últimos años también me dedique además a profundizarme en el área 
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form  id="miform" onsubmit="validarGeneral(event)">
+                    <form id="miform" onsubmit="validarGeneral(event)">
                       <div class="form-group">
                         <label class="col-form-label">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" onblur="revisar(this)" required>
@@ -135,8 +139,8 @@ En estos últimos años también me dedique además a profundizarme en el área 
                         <button type="submit" class="btn btn-primary">Enviar</button>
                       </div>
                     </form>
-                    <div class="alert alert-primary my-4 text-center d-none" role="alert"  id="msjEnviado">
-           
+                    <div class="alert alert-primary my-4 text-center d-none" role="alert" id="msjEnviado">
+
                     </div>
                   </div>
                 </div>
@@ -147,11 +151,11 @@ En estos últimos años también me dedique además a profundizarme en el área 
         </div>
       </div>
     </section>
-  
+
     <h5 class="text-center my-3 text-light bg-dark w-100" id="Experiencia">Experiencia Laboral</h5>
     <section class="container d-flex justify-content-around">
       <div class="row">
-               
+
         <div
           class="card col-sm-12 col-md-6 col-lg-6 my-2 shadow p-3 mb-5 bg-white rounded rounded border border-primary">
           <h5 class="card-header text-center">Agente Telefónico-Teleperformance</h5>
@@ -177,12 +181,14 @@ En estos últimos años también me dedique además a profundizarme en el área 
     </section>
 
     <h5 class="text-center my-3 text-light bg-dark w-100" id="Estudios">Estudios Realizados</h5>
-  
+
     <section class="container-fluid ">
       <div class="row justify-content-around">
 
         <div class="card text-white bg-dark mb-3 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
-          <div class="card-header"><h4>Software Developer</h4></div>
+          <div class="card-header">
+            <h4>Software Developer</h4>
+          </div>
           <div class="card-body">
             <h4 class="card-title">Front-end</h4>
             <p class="card-text">
@@ -190,15 +196,17 @@ En estos últimos años también me dedique además a profundizarme en el área 
               <span class="badge badge-pill badge-info moreSize">CSS</span>
               <span class="badge badge-pill badge-info moreSize">JS</span>
               <span class="badge badge-pill badge-info moreSize">Bootstrap</span>
-              <h5>2021</h5>
-              <span class="badge badge-pill badge-warning moreSize">React</span>
-              <span class="badge badge-pill badge-warning moreSize">Reduce</span>
+            <h5>2021</h5>
+            <span class="badge badge-pill badge-warning moreSize">React</span>
+            <span class="badge badge-pill badge-warning moreSize">Reduce</span>
 
             </p>
           </div>
         </div>
         <div class="card text-white bg-dark mb-3 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
-          <div class="card-header "><h4>Software Developer</h4></div>
+          <div class="card-header ">
+            <h4>Software Developer</h4>
+          </div>
           <div class="card-body">
             <h4 class="card-title">Back-end</h4>
             <span class="badge badge-pill badge-info moreSize">SQL(Basico)</span>
@@ -208,15 +216,17 @@ En estos últimos años también me dedique además a profundizarme en el área 
           </div>
         </div>
         <div class="card text-white bg-dark mb-3 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
-          <div class="card-header"><h4>Additional knowledge</h4></div>
+          <div class="card-header">
+            <h4>Additional knowledge</h4>
+          </div>
           <div class="card-body">
             <span class="badge badge-pill badge-info moreSize m-1">Business administrator</span>
             <span class="badge badge-pill badge-info moreSize m-1">Tester Qa/Qc(Education IT)</span>
-            
+
             <h5 class="mt-3">2021</h5>
             <span class="badge badge-pill badge-info moreSize p-1 m-1">Functional Analyst(Education IT)</span>
             <span class="badge badge-pill badge-success moreSize p-1 m-1">Inglish pre-intermediate(Rolling)</span>
-            
+
           </div>
         </div>
 
